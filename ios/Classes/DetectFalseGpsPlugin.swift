@@ -2,13 +2,13 @@ import Flutter
 import UIKit
 import CoreLocation
 
-public class FakeGpsDetectorIosPlugin: NSObject, FlutterPlugin, CLLocationManagerDelegate {
+public class DetectFalseGpsPlugin: NSObject, FlutterPlugin, CLLocationManagerDelegate {
     let locationManager = CLLocationManager()
     var locationResult: FlutterResult?
 
     public static func register(with registrar: FlutterPluginRegistrar) {
         let channel = FlutterMethodChannel(name: "detect_false_gps", binaryMessenger: registrar.messenger())
-        let instance = FakeGpsDetectorIosPlugin()
+        let instance = DetectFalseGpsPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
 
