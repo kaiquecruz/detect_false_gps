@@ -1,6 +1,6 @@
 name: detect_false_gps
 description: "Faz detecção nativa de GPS falso no iPhone."
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/kaiquecruz/detect_false_gps
 issue_tracker: https://github.com/kaiquecruz/detect_false_gps/issues
 
