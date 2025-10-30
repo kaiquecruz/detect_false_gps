@@ -1,0 +1,26 @@
+name: detect_false_gps_example
+description: "Demonstrates how to use the detect_false_gps plugin."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  detect_false_gps:
+    path: ../
+  permission_handler: ^12.0.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
