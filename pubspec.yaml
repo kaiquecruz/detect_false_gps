@@ -1,8 +1,8 @@
 name: detect_false_gps
 description: "A new Flutter plugin project."
 version: 0.0.1
-repository: https://github.com/developermanishdevan/developer_mode_finder
-issue_tracker: https://github.com/developermanishdevan/developer_mode_finder/issues
+repository: https://github.com/kaiquecruz/detect_false_gps
+issue_tracker: https://github.com/kaiquecruz/detect_false_gps/issues
 
 environment:
   sdk: ^3.9.2
