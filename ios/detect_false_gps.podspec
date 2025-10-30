@@ -5,9 +5,9 @@
 Pod::Spec.new do |s|
   s.name             = 'detect_false_gps'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.summary          = 'Faz detecção nativa de GPS falso no iPhone.'
   s.description      = <<-DESC
-A new Flutter plugin project.
+Faz detecção nativa de GPS falso no iPhone.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
